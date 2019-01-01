@@ -5,7 +5,7 @@ def fizzbuzz(x)
         "Fizz"
     elsif x % 5 == 0 # else if evenly disible by 5
         "Buzz"
-    elsif x % 3 == 0 && x % 5 == 0
+    elsif (x % 3 == 0) && (x % 5 == 0)
         "FizzBuzz"
     else
         nil
